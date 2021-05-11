@@ -4,9 +4,9 @@ namespace Acme.Common
 {
   // StringHandler will take in a string such as "JohnnyBoy" and
   //  split the string on each capital letter.
-  public class StringHandler
+  public static class StringHandler
   {
-    public string InsertSpaces(string source)
+    public static string InsertSpaces(string source)
     {
       string result = string.Empty;
 
