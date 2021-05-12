@@ -6,7 +6,12 @@ namespace Acme.Common
   //  split the string on each capital letter.
   public static class StringHandler
   {
-    public static string InsertSpaces(string source)
+    /// <summary>
+    /// Inserts a space before each capital letter in a string
+    /// </summary>
+    /// <param name="source"></param>
+    /// <returns></returns>
+    public static string InsertSpaces(this string source)
     {
       string result = string.Empty;
 
